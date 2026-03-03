@@ -22,24 +22,21 @@ export default function HomePage() {
 
   const footerColumns = [
     {
-      title: "Company",
-      items: [
+      title: "Company",      items: [
         { label: "About", href: "/about" },
         { label: "Services", href: "/services" },
         { label: "Service Areas", href: "/service-areas" },
       ],
     },
     {
-      title: "Contact",
-      items: [
+      title: "Contact",      items: [
         { label: "Call: (857) 247-8625", href: "tel:(857)247-8625" },
         { label: "28 Middle St, Newton, MA 02458", href: "#" },
         { label: "Request Estimate", href: "/contact" },
       ],
     },
     {
-      title: "Legal",
-      items: [
+      title: "Legal",      items: [
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
       ],
@@ -76,7 +73,7 @@ export default function HomePage() {
             { text: "Get a Free Estimate", href: "/contact" },
           ]}
           background={{ variant: "sparkles-gradient" }}
-          imageSrc="http://img.b2bpic.net/free-psd/professional-lawn-gardening-services-advertisement_505751-8151.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-psd/professional-lawn-gardening-services-advertisement_505751-8151.jpg"
           imageAlt="Professional lawn care in Newton, MA"
           mediaAnimation="slide-up"
           frameStyle="card"
@@ -88,10 +85,8 @@ export default function HomePage() {
         <InlineImageSplitTextAbout
           heading={[
             {
-              type: "text",
-              content:
-                "Victor Pineda Landscaping & Plowing Service is a trusted landscaping company serving homeowners in Newton and surrounding communities. Victor and his team are known for being dependable, punctual, fairly priced, and extremely hardworking.",
-            },
+              type: "text",              content:
+                "Victor Pineda Landscaping & Plowing Service is a trusted landscaping company serving homeowners in Newton and surrounding communities. Victor and his team are known for being dependable, punctual, fairly priced, and extremely hardworking."},
           ]}
           buttons={[{ text: "Learn More", href: "/about" }]}
           useInvertedBackground={false}
@@ -107,36 +102,20 @@ export default function HomePage() {
           features={[
             {
               id: 1,
-              title: "Lawn Mowing & Lawn Care",
-              description: "Weekly lawn mowing and ongoing maintenance to keep lawns healthy and clean.",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=1",
-              imageAlt: "Professional lawn mowing service",
-            },
+              title: "Lawn Mowing & Lawn Care",              description: "Weekly lawn mowing and ongoing maintenance to keep lawns healthy and clean.",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",              imageAlt: "Professional lawn mowing service"},
             {
               id: 2,
-              title: "Yard Maintenance",
-              description: "Seeding, trimming, property cleanup, and general landscaping care.",
-              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg?_wi=1",
-              imageAlt: "Yard maintenance and landscaping",
-            },
+              title: "Yard Maintenance",              description: "Seeding, trimming, property cleanup, and general landscaping care.",              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg",              imageAlt: "Yard maintenance and landscaping"},
             {
               id: 3,
-              title: "Spring & Fall Cleanup",
-              description: "Seasonal yard cleanup including leaves, debris removal, and preparation for the next season.",
-              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg?_wi=1",
-              imageAlt: "Spring and fall seasonal cleanup",
-            },
+              title: "Spring & Fall Cleanup",              description: "Seasonal yard cleanup including leaves, debris removal, and preparation for the next season.",              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg",              imageAlt: "Spring and fall seasonal cleanup"},
             {
               id: 4,
-              title: "Gutter Cleaning",
-              description: "Professional gutter cleaning to protect homes from water damage.",
-              imageSrc: "http://img.b2bpic.net/free-photo/auto-mechanic-inflating-tire-with-air-compressor-street_651396-3561.jpg",
-              imageAlt: "Professional gutter cleaning service",
-            },
+              title: "Gutter Cleaning",              description: "Professional gutter cleaning to protect homes from water damage.",              imageSrc: "http://img.b2bpic.net/free-photo/auto-mechanic-inflating-tire-with-air-compressor-street_651396-3561.jpg",              imageAlt: "Professional gutter cleaning service"},
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
           buttonAnimation="opacity"
         />
       </div>
@@ -155,7 +134,7 @@ export default function HomePage() {
             { src: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", alt: "Customer 6" },
           ]}
           useInvertedBackground={false}
-          ratingAnimation="reveal-blur"
+          ratingAnimation="slide-up"
           avatarsAnimation="slide-up"
         />
       </div>
@@ -167,26 +146,14 @@ export default function HomePage() {
           tag="Our Track Record"
           metrics={[
             {
-              id: "1",
-              value: "5.0★",
-              title: "Google Rating",
-              description: "Trusted by 7+ verified reviews from satisfied customers",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=2",
-              imageAlt: "Customer satisfaction metric",
-            },
+              id: "1",              value: "5.0★",              title: "Google Rating",              description: "Trusted by 7+ verified reviews from satisfied customers",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",              imageAlt: "Customer satisfaction metric"},
             {
-              id: "2",
-              value: "5+ Years",
-              title: "Long-Term Clients",
-              description: "Many customers have worked with Victor for over five years consistently",
-              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg?_wi=2",
-              imageAlt: "Long-term customer relationships",
-            },
+              id: "2",              value: "5+ Years",              title: "Long-Term Clients",              description: "Many customers have worked with Victor for over five years consistently",              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg",              imageAlt: "Long-term customer relationships"},
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
         />
       </div>
 
@@ -197,13 +164,13 @@ export default function HomePage() {
           description="Fill out the form below or call us directly. We'll get back to you within 24 hours with a no-obligation quote for your landscaping or snow removal needs."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg"
           imageAlt="Professional landscaping team"
           mediaAnimation="slide-up"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
           buttonText="Request Estimate"
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
         />
       </div>
 
