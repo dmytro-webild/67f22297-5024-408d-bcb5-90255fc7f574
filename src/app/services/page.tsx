@@ -68,13 +68,13 @@ export default function ServicesPage() {
           features={[
             {
               id: 1,
-              title: "Lawn Mowing & Lawn Care",              description: "Weekly lawn mowing, grass seeding, fertilization, and ongoing maintenance to keep your lawn healthy, lush, and beautiful throughout the growing season.",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",              imageAlt: "Professional lawn mowing service"},
+              title: "Lawn Mowing & Lawn Care",              description: "Weekly lawn mowing, grass seeding, fertilization, and ongoing maintenance to keep your lawn healthy, lush, and beautiful throughout the growing season.",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=3",              imageAlt: "Professional lawn mowing service"},
             {
               id: 2,
-              title: "Yard Maintenance & Landscaping",              description: "Trimming, edging, mulch installation, landscape design consultation, and general property upkeep to enhance your outdoor space.",              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg",              imageAlt: "Yard maintenance and landscaping"},
+              title: "Yard Maintenance & Landscaping",              description: "Trimming, edging, mulch installation, landscape design consultation, and general property upkeep to enhance your outdoor space.",              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg?_wi=3",              imageAlt: "Yard maintenance and landscaping"},
             {
               id: 3,
-              title: "Spring & Fall Cleanup",              description: "Comprehensive seasonal cleanup including leaf removal, debris collection, yard preparation, and spring mulching. Perfect for getting your property ready for each new season.",              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg",              imageAlt: "Spring and fall seasonal cleanup"},
+              title: "Spring & Fall Cleanup",              description: "Comprehensive seasonal cleanup including leaf removal, debris collection, yard preparation, and spring mulching. Perfect for getting your property ready for each new season.",              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg?_wi=2",              imageAlt: "Spring and fall seasonal cleanup"},
             {
               id: 4,
               title: "Gutter Cleaning & Snow Removal",              description: "Professional gutter cleaning to prevent water damage and damage to your home's foundation. Winter snow plowing and removal to keep driveways and walkways safe.",              imageSrc: "http://img.b2bpic.net/free-photo/big-special-tractor-is-removing-snow-from-forestal-road_613910-13787.jpg",              imageAlt: "Snow plowing and gutter services"},
@@ -93,7 +93,7 @@ export default function ServicesPage() {
           description="Contact Victor Pineda Landscaping to discuss your specific needs. Whether you need one-time cleanup or ongoing maintenance, we'll provide a fair quote and professional service you can trust."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={true}
-          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg?_wi=2"
           imageAlt="Professional landscaping team"
           mediaAnimation="slide-up"
           mediaPosition="left"
