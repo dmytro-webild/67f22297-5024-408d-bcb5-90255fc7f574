@@ -18,24 +18,21 @@ export default function AboutPage() {
 
   const footerColumns = [
     {
-      title: "Company",
-      items: [
+      title: "Company",      items: [
         { label: "About", href: "/about" },
         { label: "Services", href: "/services" },
         { label: "Service Areas", href: "/service-areas" },
       ],
     },
     {
-      title: "Contact",
-      items: [
+      title: "Contact",      items: [
         { label: "Call: (857) 247-8625", href: "tel:(857)247-8625" },
         { label: "28 Middle St, Newton, MA 02458", href: "#" },
         { label: "Request Estimate", href: "/contact" },
       ],
     },
     {
-      title: "Legal",
-      items: [
+      title: "Legal",      items: [
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
       ],
@@ -67,10 +64,8 @@ export default function AboutPage() {
         <InlineImageSplitTextAbout
           heading={[
             {
-              type: "text",
-              content:
-                "Victor Pineda Landscaping has been serving Newton and the surrounding Boston area communities with professional, dependable lawn care and property maintenance services. Our mission is to deliver exceptional landscaping results with integrity, hard work, and fair pricing. Victor leads a dedicated team of professionals committed to customer satisfaction and attention to detail.",
-            },
+              type: "text",              content:
+                "Victor Pineda Landscaping has been serving Newton and the surrounding Boston area communities with professional, dependable lawn care and property maintenance services. Our mission is to deliver exceptional landscaping results with integrity, hard work, and fair pricing. Victor leads a dedicated team of professionals committed to customer satisfaction and attention to detail."},
           ]}
           buttons={[{ text: "View Our Services", href: "/services" }]}
           useInvertedBackground={false}
@@ -85,26 +80,14 @@ export default function AboutPage() {
           tag="About Us"
           metrics={[
             {
-              id: "1",
-              value: "5.0★",
-              title: "Google Rating",
-              description: "Consistently rated 5 stars by our satisfied Newton area customers",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=4",
-              imageAlt: "Customer satisfaction",
-            },
+              id: "1",              value: "5.0★",              title: "Google Rating",              description: "Consistently rated 5 stars by our satisfied Newton area customers",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",              imageAlt: "Customer satisfaction"},
             {
-              id: "2",
-              value: "100+",
-              title: "Happy Clients",
-              description: "Over 100 residential customers trust us with their lawn care and maintenance",
-              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg?_wi=4",
-              imageAlt: "Customer community",
-            },
+              id: "2",              value: "100+",              title: "Happy Clients",              description: "Over 100 residential customers trust us with their lawn care and maintenance",              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg",              imageAlt: "Customer community"},
           ]}
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
         />
       </div>
 
