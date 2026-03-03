@@ -73,28 +73,28 @@ export default function ServiceAreasPage() {
               id: 1,
               title: "Newton, MA",
               description: "Our primary service area. We provide comprehensive landscaping, lawn care, seasonal cleanup, and winter snow removal throughout Newton.",
-              imageSrc: "http://img.b2bpic.net/free-psd/professional-lawn-gardening-services-advertisement_505751-8151.jpg",
+              imageSrc: "http://img.b2bpic.net/free-psd/professional-lawn-gardening-services-advertisement_505751-8151.jpg?_wi=2",
               imageAlt: "Newton Massachusetts service area",
             },
             {
               id: 2,
               title: "Watertown",
               description: "Professional lawn mowing, yard maintenance, and property cleanup services for Watertown residential customers.",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=5",
               imageAlt: "Watertown landscaping services",
             },
             {
               id: 3,
               title: "Waltham",
               description: "Seasonal cleanup, weekly lawn care, and general property maintenance for Waltham residents seeking reliable landscaping.",
-              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg?_wi=3",
               imageAlt: "Waltham yard care services",
             },
             {
               id: 4,
               title: "Brookline & Brighton",
               description: "Full range of landscaping services including lawn mowing, yard maintenance, spring/fall cleanup, and professional snow removal.",
-              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg?_wi=3",
               imageAlt: "Brookline and Brighton service areas",
             },
           ]}
@@ -112,7 +112,7 @@ export default function ServiceAreasPage() {
           description="If you're in Newton, Watertown, Waltham, Brookline, Brighton, or a nearby community, contact Victor Pineda Landscaping for professional lawn care and property maintenance services. We're ready to serve you!"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg?_wi=4"
           imageAlt="Professional landscaping team"
           mediaAnimation="slide-up"
           mediaPosition="right"
