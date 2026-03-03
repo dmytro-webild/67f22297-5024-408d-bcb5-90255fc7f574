@@ -89,7 +89,7 @@ export default function AboutPage() {
               value: "5.0★",
               title: "Google Rating",
               description: "Consistently rated 5 stars by our satisfied Newton area customers",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=4",
               imageAlt: "Customer satisfaction",
             },
             {
@@ -97,7 +97,7 @@ export default function AboutPage() {
               value: "100+",
               title: "Happy Clients",
               description: "Over 100 residential customers trust us with their lawn care and maintenance",
-              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg?_wi=4",
               imageAlt: "Customer community",
             },
           ]}
