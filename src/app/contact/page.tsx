@@ -18,24 +18,21 @@ export default function ContactPage() {
 
   const footerColumns = [
     {
-      title: "Company",
-      items: [
+      title: "Company",      items: [
         { label: "About", href: "/about" },
         { label: "Services", href: "/services" },
         { label: "Service Areas", href: "/service-areas" },
       ],
     },
     {
-      title: "Contact",
-      items: [
+      title: "Contact",      items: [
         { label: "Call: (857) 247-8625", href: "tel:(857)247-8625" },
         { label: "28 Middle St, Newton, MA 02458", href: "#" },
         { label: "Request Estimate", href: "/contact" },
       ],
     },
     {
-      title: "Legal",
-      items: [
+      title: "Legal",      items: [
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
       ],
@@ -70,13 +67,13 @@ export default function ContactPage() {
           description="Fill out the form below or call us directly at (857) 247-8625. We'll respond within 24 hours with a no-obligation quote for your landscaping or snow removal needs. Victor Pineda Landscaping is committed to providing fair pricing and professional service to Newton and surrounding communities."
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
-          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg?_wi=5"
+          imageSrc="http://img.b2bpic.net/free-photo/couple-collects-leaves-cleans-park_1157-27418.jpg"
           imageAlt="Professional landscaping team"
           mediaAnimation="slide-up"
           mediaPosition="right"
           inputPlaceholder="Enter your email"
           buttonText="Request Estimate"
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
         />
       </div>
 
@@ -88,29 +85,17 @@ export default function ContactPage() {
           features={[
             {
               id: 1,
-              title: "Phone",
-              description: "Call us directly at (857) 247-8625. We answer calls Monday through Friday, 7am-6pm.",
-              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg?_wi=6",
-              imageAlt: "Phone contact method",
-            },
+              title: "Phone",              description: "Call us directly at (857) 247-8625. We answer calls Monday through Friday, 7am-6pm.",              imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-male-gardener-pushing-modern-lawn-mower-while-walking-grass-view-handyman_7502-10570.jpg",              imageAlt: "Phone contact method"},
             {
               id: 2,
-              title: "Email Request",
-              description: "Submit your contact information and service request through our online form. We'll respond within 24 hours.",
-              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg?_wi=5",
-              imageAlt: "Email contact method",
-            },
+              title: "Email Request",              description: "Submit your contact information and service request through our online form. We'll respond within 24 hours.",              imageSrc: "http://img.b2bpic.net/free-photo/darkhaired-man-using-portable-powered-leaf-blower-blow-beveled-leaves-from-footpath-back-yard_7502-10567.jpg",              imageAlt: "Email contact method"},
             {
               id: 3,
-              title: "Service Areas",
-              description: "We proudly serve Newton, Watertown, Waltham, Brookline, Brighton, and surrounding Greater Boston communities.",
-              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg?_wi=4",
-              imageAlt: "Service area map",
-            },
+              title: "Service Areas",              description: "We proudly serve Newton, Watertown, Waltham, Brookline, Brighton, and surrounding Greater Boston communities.",              imageSrc: "http://img.b2bpic.net/free-photo/kids-learnign-about-environment_23-2149176599.jpg",              imageAlt: "Service area map"},
           ]}
           textboxLayout="default"
           useInvertedBackground={true}
-          tagAnimation="reveal-blur"
+          tagAnimation="slide-up"
           buttonAnimation="opacity"
         />
       </div>
